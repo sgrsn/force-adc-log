@@ -67,4 +67,9 @@ public:
     RawAngle |= (uint16_t)Wire.read();
     return RawAngle;
   }
+
+  void setRevZero()
+  {
+    rev_ = 0;
+  }
 };
