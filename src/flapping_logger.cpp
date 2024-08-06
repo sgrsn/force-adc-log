@@ -8,7 +8,6 @@
 #include <string>
 #include <MsTimer2.h>
 #include "AS5601.hpp"
-#include "motor_driver.hpp"
 
 const double RATE = 1000;
 const uint8_t photointerrupter_pin = 37;
